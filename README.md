@@ -154,3 +154,11 @@ If the destination folder already contains `.model` files and you are not runnin
 - If the destination path points to a file instead of a directory, the script throws an error.
 - If a template file cannot be parsed as JSON, the script reports the parse failure and stops.
 - If a source file does not contain `HostName`, that file is skipped and counted as a failure.
+
+## Supporting Tool: AHK RDP Window Resizer
+
+- <https://github.com/dpo007/AHK-RDP-Window-Resizer>
+
+That script has been updated to support Windows App Remote Desktop windows as well (including sessions whose titles are host-only).
+
+Why you might want it: after migrating connections, it helps quickly normalize RDP window size and placement so multi-session workflows are easier to manage and compare on screen.
